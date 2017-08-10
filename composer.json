@@ -3,6 +3,7 @@
     "description": "Бандл для проектов как компонент Symfony. Создает визуальный скелет для текстов. Основа распространения текстов идеи. Совместное редактирование и публикация текстов идей независимых авторов.",
     "type": "symfony-bundle",
     "version": "0.0.1",
+    "minimum-stability": "stable",
     "homepage": "https://github.com/revolter-idealist/idealist-bundle",
     "license": "GPL-3.0",
     "authors": [
