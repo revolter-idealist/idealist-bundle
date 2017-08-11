@@ -31,7 +31,7 @@ blockquote {
 }
 .paper {
     /*height: 297mm;*/
-    background: #FFFFFF url('/static/img/an-gr.png') no-repeat;
+    background: #FFFFFF url('../img/an-gr.png') no-repeat;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
     padding: 5mm 15mm 10mm; 
 }
@@ -55,7 +55,7 @@ aside {
 .external-link {
     display: inline-block;
     cursor: pointer;
-    background-image: url('/static/img/link.png');
+    background-image: url('../img/link.png');
     margin-bottom: -3px;
     margin-left: -42px;
     margin-right: 8px;
