@@ -6,7 +6,12 @@
 
 ## Установка и настройка
 
+`composer require "revolter/idealist-bundle:dev-master"`
+или
 `composer require revolter/idealist-bundle`
+
+Затем добавьте инициализацию бандла в `app/AppKernel.php`
+`new Revolter\IdealistBundle\RevolterIdealistBundle(),`
 
 После установки код бандла будет в одноименной папке вендоров вашего проекта. Обычно это папка `vendor` в корне. И весь путь тогда `vendor/revolter/idealist-bundle`. Там будет два файла, которые необходимо будет скопировать отдельно.
 * base.html.twig - основной шаблон страницы проекта. Ссылается на файл счетчиков в коде
